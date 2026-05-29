@@ -35,7 +35,7 @@ A full-stack AI-powered resume builder built with the MERN stack.
 
 **Clone the repo:**
 ```bash
-git clone https://github.com/tera-username/ai-resume-builder.git
+git clone https://github.com/rakeshkumar-mandal/ai-resume-builder.git
 ```
 
 **Backend setup:**
