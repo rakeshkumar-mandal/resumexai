@@ -1,75 +1,79 @@
-# ResumeXAI
+# AI Resume Builder 🚀
 
-AI-powered MERN stack resume builder with smart suggestions and modern UI.
+A full-stack AI-powered resume builder built with the MERN stack.
 
-## Features
+## 🌟 Features
 
-- AI Resume Generation
-- User Authentication
-- Resume Templates
-- PDF Export
-- Responsive Design
-- MERN Stack Architecture
+- 🤖 AI-powered resume content enhancement
+- 📄 Multiple resume templates
+- 🎨 Customizable accent colors
+- 📊 ATS Score Checker
+- 🔗 Shareable resume links
+- 📥 PDF download
+- 🔐 JWT Authentication
+- ☁️ Image upload with ImageKit
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-### Frontend
-- React.js
-- Tailwind CSS
-- Axios
+**Frontend:** React.js, Redux Toolkit, Tailwind CSS, Vite
 
-### Backend
+**Backend:** Node.js, Express.js, MongoDB, Mongoose
+
+**AI:** OpenAI API
+
+**Other:** ImageKit, JWT, Bcrypt, Multer
+
+## 🚀 Getting Started
+
+### Prerequisites
 - Node.js
-- Express.js
 - MongoDB
+- OpenAI API Key
+- ImageKit Account
 
-## Folder Structure
+### Installation
 
+**Clone the repo:**
 ```bash
-client/   -> Frontend
-server/   -> Backend
+git clone https://github.com/tera-username/ai-resume-builder.git
 ```
 
-## Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/rakeshkumar-mandal/resumexai.git
-```
-
-### Frontend Setup
-
-```bash
-cd client
-npm install
-npm run dev
-```
-
-### Backend Setup
-
+**Backend setup:**
 ```bash
 cd server
 npm install
-npm start
 ```
 
-## Environment Variables
+**Create`.env` file inside server folder:**
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+OPENAI_API_KEY=your_openai_key
+OPENAI_MODEL=gpt-3.5-turbo
+IMAGEKIT_PUBLIC_KEY=your_key
+IMAGEKIT_PRIVATE_KEY=your_key
+IMAGEKIT_URL_ENDPOINT=your_url
 
-Create `.env` file inside server folder.
 
-```env
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_secret
+**Frontend setup:**
+```bash
+cd client
+npm install
 ```
 
-## Future Improvements
+**Create`.env` file in client folder:**
+VITE_BASE_URL=http://localhost:3000
 
-- AI-based resume scoring
-- Multiple templates
-- ATS optimization
-- Resume sharing
+**Run code:**
+```bash
+# Backend
+cd server
+npm run server
 
-## Author
+# Frontend
+cd client
+npm run dev
+```
 
-Rakesh Kumar Mandal
+## 👨‍💻 Developer
+
+Made with ❤️ by [Rakesh Kumar Mandal](https://github.com/rakeshkumar-mandal)
